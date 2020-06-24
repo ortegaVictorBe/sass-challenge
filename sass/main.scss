@@ -1,0 +1,21 @@
+
+
+//Variables
+$my-padding:16px;
+
+//Variable Box Shadow
+$size-box-shadow:10px;
+$blur-box-shadow:19px;
+$spread-box-shadow:-4px;
+$color-box-shadow: rgba(255, 255, 255, 0.75);
+
+@mixin my-box-shadow{
+    -webkit-box-shadow: $size-box-shadow $size-box-shadow $blur-box-shadow $spread-box-shadow $color-box-shadow ;
+       -moz-box-shadow: $size-box-shadow $size-box-shadow $blur-box-shadow $spread-box-shadow $color-box-shadow ;
+            box-shadow: $size-box-shadow $size-box-shadow $blur-box-shadow $spread-box-shadow $color-box-shadow ;
+}
+
+
+@import "_basic";
+@import "_article";
+@import "_message";

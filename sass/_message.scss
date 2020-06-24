@@ -1,0 +1,22 @@
+.message {
+    border: 1px solid #ccc;
+    padding: $my-padding;
+    margin: 16px;
+    color: #2748b3;
+    background-color: #000;
+  }
+  
+  .success {
+  @extend .message;
+    background-color: green;
+  }
+  
+  .error {
+   @extend .message;
+    background-color: red;
+  }
+  
+  .warning {
+    @extend .message;  
+    background-color: orange;
+  }
