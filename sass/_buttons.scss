@@ -1,0 +1,34 @@
+.buttons{    
+    text-align: center;
+    
+}
+a{
+    font:bold 20px;
+    text-decoration: none;
+    border: 2px solid #FFF;
+    padding: 5px 35px 5px 35px;
+    border-radius: 15px;
+    transition:background .5s, color .5s;
+}
+a.red{
+    @extend a;
+    color:$my-font-red-btn-color;
+}
+a.blue{
+    @extend a;
+    color:$my-font-blue-btn-color;
+}
+a.red:hover{
+    background: $my-font-red-btn-color;
+    color: #FFF;
+}
+a.blue:hover{
+    background: $my-font-blue-btn-color;
+    color:#fff;
+}
+
+.red .blue{
+    float:left;
+}
+
+

@@ -1,6 +1,6 @@
 body {
     font: 100% "Space Mono", monospace;
-    color: #2748b3;
+    color:$my-font-color;
     margin: 0px;
     padding: 0px;
     background-color: #000;
@@ -22,7 +22,7 @@ body {
   }
 
   h1,h2,h6 {
-    color: #6b8eff;
+    color:$my-font-h-color;
   }
   
   h1 {

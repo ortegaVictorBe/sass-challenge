@@ -1,6 +1,6 @@
 body {
   font: 100% "Space Mono", monospace;
-  color: #2748b3;
+  color: red;
   margin: 0px;
   padding: 0px;
   background-color: #000;
@@ -11,7 +11,7 @@ body {
 }
 
 h1, h2, h6 {
-  color: #6b8eff;
+  color: #f53c32;
 }
 
 h1 {
@@ -138,4 +138,4 @@ article section pre.after {
 .warning {
   background-color: orange;
 }
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main_2.css.map */
