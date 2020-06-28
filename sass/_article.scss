@@ -6,7 +6,7 @@ article {
         flex-grow: 1;
         flex-basis: 45%;
         border: 1px silver solid;
-        @include my-box-shadow;
+        @include my-box-shadow(10px, 10px, 19px, -4px, rgba(255, 255, 255, 0.75));
         padding: $my-padding;
         margin: 16px;
         clear: both;

@@ -10,17 +10,12 @@ $my-font-h-color:#6b8eff;
 $my-font-blue-btn-color:#2748b3;
 $my-font-red-btn-color: rgb(255,0,0);
 
-//Variable Box Shadow
-$size-box-shadow:10px;
-$blur-box-shadow:19px;
-$spread-box-shadow:-4px;
-$color-box-shadow: rgba(255, 255, 255, 0.75);
 
-@mixin my-box-shadow{
-    -webkit-box-shadow: $size-box-shadow $size-box-shadow $blur-box-shadow $spread-box-shadow $color-box-shadow ;
-       -moz-box-shadow: $size-box-shadow $size-box-shadow $blur-box-shadow $spread-box-shadow $color-box-shadow ;
-            box-shadow: $size-box-shadow $size-box-shadow $blur-box-shadow $spread-box-shadow $color-box-shadow ;
-}
+@mixin my-box-shadow($x, $y, $blur, $spread, $color){
+    -webkit-box-shadow: $x $y $blur $spread $color;
+    -moz-box-shadow: $x $y $blur $spread $color;
+     box-shadow: $x $y $blur $spread $color;
+  } 
 
 @import "_basic";
 @import "_buttons";
